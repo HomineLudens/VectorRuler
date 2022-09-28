@@ -164,7 +164,7 @@ var tick = function(tickHeight, horizPosition, tickIndex, offsetTickIndex, expon
 var tickLabel = function(x1,y2,finalTick,tickIndex,exponentIndex){
     //label the tick
             var labelTextSize
-            var labelTextSizeInches = 18
+            var labelTextSizeInches = 25
             var labelTextSizeCm = Math.round(labelTextSizeInches/ruler.cmPerInch)
             if(ruler.units === "inches"){labelTextSize = labelTextSizeInches;}
             else{labelTextSize = labelTextSizeCm;}
